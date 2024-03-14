@@ -337,7 +337,7 @@ nav a:nth-child(4):hover{
     }
 
     section{
-        min-height: 100vh;
+        min-height: 50vh;
     }
     
     h1{
@@ -345,6 +345,10 @@ nav a:nth-child(4):hover{
         font-size: 1.8em;
         letter-spacing: 0;
         color: var(--White);
+    }
+
+    h4{
+        margin-top: 3em;
     }
 
     #mobileMenu{
@@ -357,6 +361,7 @@ nav a:nth-child(4):hover{
 
     .hero{
         width: 100%;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -370,6 +375,7 @@ nav a:nth-child(4):hover{
 
     .feature{
         flex-basis: calc(100%);
+        height: 50vh;
     }
 
     .feature h2,
@@ -377,8 +383,56 @@ nav a:nth-child(4):hover{
         width: 75%;
         text-align: center;
     }
+
     .btn{
         width: 100%;
         text-align: center;
+    }
+
+    .services{
+        flex-direction: column;
+        min-height: 80vh;
+    }
+
+    .service{
+        flex: calc(100%);
+        height: 60vh;
+    }
+
+    .service:nth-child(1){
+        background-image: url(/images/mobile/image-graphic-design.jpg);
+    }
+
+    .service:nth-child(2){
+        background-image: url(/images/mobile/image-photography.jpg);
+    }
+
+    .testimonials {
+        margin-bottom: 2em;
+        gap: .5em;
+    }
+
+    .testimonials h4{
+        margin-bottom: 2em;
+    }
+
+    .testimonies{
+        width: 100%;
+        flex-direction: column;
+        padding: 2em 0;
+    }
+    
+    .testimony {
+        width: 80%;
+        height: 40vh;
+        margin-top: 3em;
+    }
+
+    .gallery{
+        flex-wrap: wrap;
+    }
+
+    .gallery img{
+        width: 50%;
     }
 }
